@@ -1,0 +1,63 @@
+
+header > img{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 260px;
+}
+
+section{
+    background-color: aliceblue;
+}
+
+
+section{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    margin-top: 12px;
+}
+
+section > .project-name{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 12px 0 12px 0;
+}
+
+section > .description{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px ;
+}
+
+section > .btn{
+    padding-top: 22px;
+    display: flex;
+    
+}
+section > .btn > a{
+    margin-left: 12px;
+   text-decoration: none;
+   padding: 12px 12px 12px 12px;
+   border: 1px solid plum;
+}
+
+section > .btn > .live{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+
+section > .btn > .source:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+.col-white{
+    background-color: whitesmoke;
+}

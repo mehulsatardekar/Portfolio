@@ -1,0 +1,130 @@
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > img{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 320px;
+}
+
+header > strong{
+    font-size: 2rem;
+    color: rgb(139, 137, 137);
+}
+
+header > .intro{
+   
+    margin:13px 10px 10px 10px;
+}
+
+header > .intro> h4{
+    font-size: 1.4rem;
+    color: rgb(54, 54, 54);
+
+}
+
+header > .intro> p,span{
+    margin-top: 12px;
+    font-size: 1.2rem;
+    color: rgb(59, 59, 59);
+    
+}
+
+section{
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+   padding: 12px;
+}
+
+section > ul>  strong{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+section > ul >p{
+    padding-top:14px;
+    padding-bottom: 12px;
+}
+
+section >ul{
+    margin-top: 12px;
+    font-size: 1.3rem;
+     padding: 22px;
+     margin: 32px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 13px;
+     flex-direction: column;
+     margin-bottom: 32px;
+     height: 220px;
+}
+
+.projects > .title{
+    font-size: 2rem;
+    margin: 3px 0 3px 0;
+}
+
+.projects >  p{
+    font-size: 1.2rem;
+    margin: 3px 0 3px 0;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.projects >a{
+    background-color: blueviolet;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 13px 12px 13px 12px;
+     flex-direction: column;
+     height: 220px;
+     background-color: gainsboro;
+
+}
+.blogs > .title{
+    font-size: 2rem;
+    margin: 3px 0 3px 0;
+}
+
+.blogs >  p{
+    font-size: 1.2rem;
+    margin: 3px 0 3px 0;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.blogs >a{
+    background-color: blueviolet;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+
+
+

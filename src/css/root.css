@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: purple;
+    height: 90px;   
+        
+}
+nav > .nav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+nav> .nav-content> .left{
+   padding-left: 10px;
+   color: whitesmoke;
+   font-size: 1.8rem;
+   margin-top: 13px;
+}
+
+nav> .nav-content> .right{
+margin-top: 13px;
+ padding-right: 15px;
+}
+
+nav > .nav-content> .right >a{
+    color: rgb(138, 135, 135);
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+    margin: 3px 3px 3px 3px;
+}
+
+nav> .nav-content >.right>ul{
+    display: flex;
+}
+
+nav> .nav-content >.right>ul>li{
+    padding: 12px ;
+    list-style: none;
+}
+
+
+nav> .nav-content> .right > ul>li>a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(252, 252, 253);
+}
+
+
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+}
+footer > h4{
+  
+    font-size: 2rem;
+    color: white;
+    padding-top: 22px;
+} 
+footer > .icons{
+    padding-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 21px;
+}
+footer > .icons> ul > {
+    list-style: none;
+}
+
+footer > .icons >ul > li{
+    list-style: none;
+}
+footer > .icons> ul > li> a>{
+    list-style: none;
+    text-decoration: none;
+
+}
+footer > .icons> ul > li> a> img{
+    padding: 12px 12px 12px 12px;
+
+   height: 40px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+header > strong{
+    font-size: 2rem;
+    color: rgb(139, 137, 137);
+}
